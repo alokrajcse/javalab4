@@ -17,7 +17,7 @@ public class GCDLCMCalculator {
         System.out.println("LCM of " + num1 + " and " + num2 + " is: " + lcm);
     }
 
-    private static int findGCD(int n1, int n2) {
+     static int findGCD(int n1, int n2) {
         while (n2 != 0) {
             int temp = n2;
             n2 = n1 % n2;
@@ -26,7 +26,7 @@ public class GCDLCMCalculator {
         return n1;
     }
 
-    private static int findLCM(int n1, int n2) {
+     static int findLCM(int n1, int n2) {
         int lcm = (n1 > n2) ? n1 : n2;
 
         while (true) {
