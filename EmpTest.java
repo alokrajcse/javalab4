@@ -1,10 +1,12 @@
+//LAB QUES1
+
 import java.util.Scanner;
 public class Employee {
 
 
-    private String empName;
-    private String empNo;
-    private int dependentCnt;
+     String empName;
+     String empNo;
+     int dependentCnt;
 
     Employee(String name,String eno, int depcnt)
     {
@@ -32,11 +34,8 @@ public class Employee {
     }
 }
 
-//LAB QUES1
 
- 
-
-class EmpTest {
+ class EmpTest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
