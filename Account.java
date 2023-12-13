@@ -1,8 +1,8 @@
 // LAB QUES4
 public class Account {
-    private int accNo;
-    private float balance;
-    private static float intInYears = 7.5f; 
+     int accNo;
+     float balance;
+     static float intInYears = 7.5f; 
 
     
     public Account(int accNo, float balance) {
