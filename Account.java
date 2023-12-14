@@ -1,4 +1,4 @@
-// LAB QUES4
+// LAB QUES2
 public class Account {
      int accNo;
      float balance;
